@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Yantramanav');
+
+header{
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav{
+	background-color: #e8c66a;
+}
+
+#two_column{
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside{
+	background-color: #ffc675;
+}
+
+#left{
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+article{
+	background-color: #e89c6c;
+}
+
+#right{
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+footer{
+	background-color: #ff957e;
+}
+
+div, section{
+	background-color: #ffe2b8;
+}
+
+/*body{
+	color: #fff;
+	background: url("images/Nigeria-map.jpg");
+	background-color: #000;
+	text-align: center;
+}*/
+
+h1, h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+p{
+	font-family: font-family: 'Cormorant Garamond', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2.0em;
+}
+
+#slogan{
+	font-style: italic;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
